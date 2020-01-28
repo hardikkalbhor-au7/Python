@@ -26,3 +26,16 @@ elif 30<=perc<49:
 else:
     print("E")
 
+
+
+#4. program for login password
+
+login=input(str("Enter Username: "))
+passw=input(str("Enter password: "))
+if login == "Priyesh" is True:
+    if passw == "password" is True:
+        print("Entered the System")
+    elif
+        print("password do not match")
+    else:
+        print("Username doesnot Exist")
