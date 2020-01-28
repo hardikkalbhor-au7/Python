@@ -12,4 +12,17 @@ Sub4=int(input("Enter marks for 4: "))
 Sub5=int(input("Enter marks for 5: "))
 
 perc=int(Sub1+Sub2+Sub3+Sub4+Sub5)/5
-print(perc)
+
+#percentage is perc
+
+if perc>=90:
+    print("A")
+elif 70<=perc<89:
+    print("B")
+elif 50<=perc<69:
+    print("C")
+elif 30<=perc<49:
+    print("D")
+else:
+    print("E")
+
